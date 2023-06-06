@@ -29,5 +29,5 @@ int main()
 		dist.feet++;
 	}
 	cout<<"Total Distance = "<<dist.feet<<" Feet "<<dist.inch<<" Inch";
-	
+	return 0;
 }
