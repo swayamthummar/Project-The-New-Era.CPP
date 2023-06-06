@@ -7,7 +7,7 @@ class Time
     int min;
     int sec;
 };
-main() 
+int main() 
 {
     Time t1;
     int t;
@@ -22,5 +22,5 @@ main()
     t1.sec = (t%3600)%60;
     
     cout<<"The Time = "<<t1.hrs<<":"<<t1.min<<":"<<t1.sec;
+	return 0;
 }
-
