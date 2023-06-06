@@ -11,7 +11,7 @@ class house
 	char size_r[20];
 	int nu_f;
 };
-main()
+int main()
 {
 	house h1,h2;
 	
@@ -58,4 +58,5 @@ main()
 	cout<<"The Address Of House ->"<<h2.loc<<endl;
 	
 	cout<<endl;
+	return 0;
 }
