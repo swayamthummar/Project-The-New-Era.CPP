@@ -7,7 +7,7 @@ class Student
 	int roll;
 	char name[100];
 };
-main()
+int main()
 {
 	Student s1,s2;
 	cout<<"Enter your roll number->";
@@ -25,4 +25,5 @@ main()
 	cout<<"Name ->"<<s1.name<<endl;
 	cout<<"Roll number ->"<<s2.name<<endl;
 	cout<<"Name ->"<<s2.name<<endl;
+	return 0;
 }
