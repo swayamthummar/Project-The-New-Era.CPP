@@ -23,7 +23,7 @@ int main()
 	dist.feet=d1.feet+d2.feet;
 	dist.inch=d1.inch+d2.inch;
 	
-	while((dist.inch)>=12)
+	while(dist.inch>=12)
 	{
 		dist.inch=dist.inch-12;
 		dist.feet++;
